@@ -47,4 +47,4 @@ document.getElementById('app').innerHTML=`<div class="app"><div class="topbar"><
 load();render();save();
 </script>
 </body>
-</htmlconst timerView=section class="panel"><div class="panelHead"><h2>Timer</h2><p class="muted">Recupero in corso</p></div><div class="panelBody"><div class="workoutCard"><div class="tiny">Recupero</div><div class="timer">${Math.floor(state.remaining/60)}:${String(state.remaining%60).padStart(2,'0')}</div><div class="progress"><div class="bar" style="width:${state.timer ? state.remaining/state.timer*100 : 0}%"></div></div><div class="row" style="margin-top:14px"><button class="btn btnPrimary" style="width:100%" onclick="skipTimer()">Salta Timer</button></div></div></div></section>
+</html>
